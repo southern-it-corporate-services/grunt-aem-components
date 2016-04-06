@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          stateful="false"
+          xtype="dialog"
+          height="600"
+          width="800">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+
+                <collection
+                        jcr:primaryType="cq:Widget"
+                        path="/apps/platform/components/modules/util/configure/config-pages.infinity.json"
+                        xtype="cqinclude"/>
+                <imagequery
+                        jcr:primaryType="cq:Widget"
+                        path="/apps/platform/components/modules/util/query/query-pages.infinity.json"
+                        xtype="cqinclude"/>
+                <selector
+                        jcr:primaryType="cq:Widget"
+                        path="/apps/platform/components/modules/util/selector/selector-pages.infinity.json"
+                        xtype="cqinclude"/>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>

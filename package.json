@@ -1,0 +1,50 @@
+{
+  "name": "grunt-aem-components",
+  "version": "0.0.4",
+  "description": "Generate components base on .erb file",
+  "repository": "",
+  "author": {
+    "name": "Yong Qui Zheng",
+    "email": "yzheng@groupcse.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "_id": "grunt-aem-components@0.0.3",
+  "_shasum": "38044a8645341ebfd5dd547f4f2bc95532024679",
+  "_from": "grunt-aem-components@0.0.3",
+  "_npmVersion": "2.11.2",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "name": "yzheng",
+    "email": "yzheng@groupcse.com"
+  },
+  "dist": {
+    "shasum": "38044a8645341ebfd5dd547f4f2bc95532024679",
+    "tarball": "http://registry.npmjs.org/grunt-aem-components/-/grunt-aem-components-0.0.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "yzheng",
+      "email": "yzheng@groupcse.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/grunt-aem-components/-/grunt-aem-components-0.0.3.tgz"
+}
